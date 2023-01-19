@@ -43,11 +43,12 @@ const octokit = new Octokit({
 })
 
 export const getCommits = async () => {
+console.log('asdadsada',  process.env, '===================================================' , process.env.GH_TOKEN)
+
   const test = await octokit.request('GET /repos/{owner}/{repo}/commits{?sha,path,author,since,until,per_page,page}', {
     owner: 'sataller',
     repo: 'git-commit-history'
   })
-
   const data = await test.data
   return data
 }
