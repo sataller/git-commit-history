@@ -1,27 +1,12 @@
-# Next.js + Tailwind CSS Example
+# Requirements
+The application should list commits of the git repository with the source code of the application.
+The application should use the following technologies, approaches and libraries:
+ - Typescript
+ - React with Next.js
+ - Tailwind
+ - Static Server Generation
+ 
+Once the list of commits is displayed, let’s add more interactivity to it. Timestamps of commits should be displayed in a human-readable language (like 2 minutes ago) and be updated without a page refresh (meaning: if you stare at the page for a minute, then 2 minutes ago becomes 3 minutes ago).
+The application should have a button “refresh” which should retrieve a refreshed commit list. During the refresh we would like to have a nice indication and the commit list should not blink – we respect user experience and performance of the website.
+Source code should be available on Github Repository (we are going to look into the code). While the application should be available publicly. Please make sure that the repository is private and add us to collaborators. Our Github Profiles will be available in the email.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

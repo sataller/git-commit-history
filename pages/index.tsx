@@ -57,7 +57,7 @@ const Home: NextPage<{ commits: Data[] }> = ({
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async ({
+export const getStaticProps: GetServerSideProps = async ({
   req,
   res,
   query,
