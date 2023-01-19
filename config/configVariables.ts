@@ -1,0 +1,1 @@
+export const GH_TOKEN = 'GH_TOKEN'
